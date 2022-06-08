@@ -1,3 +1,4 @@
+/*Geral*/
 * {
     margin: 0;
     padding: 0;
@@ -6,53 +7,69 @@
   
 body {
     background: black;
+    text-align: center;
+    color: white;
 }
 
 #Container {
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-inline: auto;
+    width: 80%;
+    max-width: 25rem;
+
 }
+/*Image*/
+
+.image {
+    margin-top: 6.25rem;
+}
+
 /*Title and Text*/
 
 .title {
-    color: white;
     font-family: sans-serif;
     font-size: 0.93rem;
+    opacity: 0.9;
     padding-top: 2.5rem;
     padding-bottom: 0.3rem;
+    width: 100%;
 }
 .text {
     font-family: sans-serif;
     font-size: 0.85rem;
-    color:darkgray;
+    opacity: 0.7;
     text-align: center;
     padding-bottom: 2rem;
+    width: 100%;
 }
 
 /*Question Box*/
 
 .questionBox input{
-    padding: 1rem;
+    padding: 1.25rem;
     padding-right: 11.5rem;
     text-align: left;
     border-radius: 0.3rem;
+    width: 100%;
 }
 
 /*Button*/
 
 .btdBox {
-    padding-top: 1rem;
+    padding-top: 1.25rem;
 }
 
-.btdBox Button {
+button {
     font-family: sans-serif;
     padding: 1rem 7.68rem;
     background-color: blueviolet;
     color: white;
     border-radius: 0.3rem;
+    transition: filter 0.2s;
+    width: 100%;
 
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
 }
