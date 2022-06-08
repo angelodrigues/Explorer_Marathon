@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background: black;
+}
+
+#Container {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Title and Text*/
+
+.title {
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.93rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0.3rem;
+}
+.text {
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    color:darkgray;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/*Question Box*/
+
+.questionBox input{
+    padding: 1rem;
+    padding-right: 11.5rem;
+    text-align: left;
+    border-radius: 0.3rem;
+}
+
+/*Button*/
+
+.btdBox {
+    padding-top: 1rem;
+}
+
+.btdBox Button {
+    font-family: sans-serif;
+    padding: 1rem 7.68rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 0.3rem;
+
+}
